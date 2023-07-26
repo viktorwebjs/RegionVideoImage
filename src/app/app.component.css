@@ -1,0 +1,8 @@
+img{
+  z-index: -1;
+}
+canvas{
+position: absolute;
+  right: 400px;
+  top:400px;
+}
