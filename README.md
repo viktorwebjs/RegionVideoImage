@@ -1,28 +1,28 @@
-# RegionVideoImage
+1
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
+алгоритм для видео
+с использованием библиотеки FFmpeg.js,
 
-## Development server
+Загрузка видео файла
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Загрузка JSON файла
 
-## Code scaffolding
+Проход по каждой секунде видео
+  Получение данных для текущей секунды из JSON
+  Наложение линий на кадр видео
+  Сохранение измененного кадра
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Сохранение видео с наложенными линиями
 
-## Build
+*****
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2
 
-## Running unit tests
+алгоритм для png
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+загрузка изображения
 
-## Running end-to-end tests
+загрузка JSON с координатами
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+наложение полигонов на изображение через canvas динамически 
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# RegionVideoImage

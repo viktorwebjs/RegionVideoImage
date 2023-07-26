@@ -1,8 +1,10 @@
 img{
+  width:1200px;
   z-index: -1;
 }
 canvas{
-position: absolute;
-  right: 400px;
-  top:400px;
+  width: 100%;
+/*position: absolute;*/
+  /*right: 400px;*/
+  /*top:400px;*/
 }
